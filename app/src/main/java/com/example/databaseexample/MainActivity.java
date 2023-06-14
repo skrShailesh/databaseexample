@@ -11,10 +11,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         MyDBHelper dbHelper = new MyDBHelper(this);
+
         dbHelper.addContact( "Raman", "9999999999");
         dbHelper.addContact( "Shubham", "8899999999");
         dbHelper.addContact( "Rahul", "7799999999");
         dbHelper.addContact( "Raman", "6699999999");
+
 
     }
 }
